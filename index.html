@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>SiteLOGO</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap/min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	</head>
+	<body>
+		<div class="box">
+				<div class="login-box">
+					<div class="login-title text-center">
+						<h1>
+							<small>siteLOGO</small>
+						</h1>
+					</div>
+					<div class="login-content ">
+						<div class="form">
+							<form id="modifyPassword" class="form-horizontal" action="" method="post">							
+								<!-- input email -->
+								<div class="form-group">
+									<div class="col-xs-10 col-xs-offset-1">
+										<div class="input-group">
+											<span class="input-group-addon"><span
+												class="glyphicon glyphicon-user"></span></span> 
+										<input type="text" id="email" name="email" class="form-control" placeholder="Email" value="">
+										</div>
+										
+									</div>
+								</div>
+								
+								<!-- input password -->
+								<div class="form-group">
+									<div class="col-xs-10 col-xs-offset-1">
+										<div class="input-group">
+											<span class="input-group-addon"><span
+												class="glyphicon glyphicon-lock"></span></span> 
+												<input type="password" id="password" name="password" class="form-control" placeholder="password" value="">
+										</div>
+									</div>
+								</div>
+			
+								<!-- Users type choose -->
+								<div class="radio-group">
+									<input type="radio" name="radioname" id="radioname1" value="Users" checked="checked">Users&nbsp;
+									<br><br/>
+									<input type="radio" name="radioname" id="radioname2" value="Admin" >ChannelAdmin&nbsp;
+									<br><br/>
+									<input type="radio" name="radioname" id="radioname3" value="Administrator">Administrator
+								</div>
+								<div class="index">
+													<form action="#" method="get">
+														<p class="bstyle"><input type="checkbox" name="rempas" />  remember the password</p>
+														
+													</form>
+								</div>
+								<div class="index2">
+									<p class="cstyle">Forgot password?</p>
+								</div>
+								<!-- Sign up button -->
+								<div class="form-group form-actions">
+									<div class="col-xs-12 text-center">
+										<button type="button" id="login" class="btn btn-sm btn-success" >
+											<span class="fa fa-check-circle"></span>Login
+										</button>
+										<br><br/>
+										<form method="get" action="signup.html">
+										    <button type="submit" id="login" class="btn btn-sm btn-deafault">Sign up</button>
+										</form>
+										 
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+
+	</body>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/login.js"></script>
+</html>

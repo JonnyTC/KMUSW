@@ -1,0 +1,165 @@
+
+.form{background: rgba(255,255,255,0.2);width:400px;margin:120px auto;}
+/*阴影*/
+.fa{display: inline-block;top: 27px;left: 6px;position: relative;color: #ccc;}
+input[type="Email"],input[type="password"]{padding-left:26px;}
+.checkbox{padding-left:21px;}
+
+label
+{
+    float: left;
+    width:400px;
+    height: auto;
+    background: rgba(111,111,111,0.2);
+    margin:5px auto;
+    color:dimgrey;
+}
+.form-title
+{
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -moz-osx-font-smoothing: grayscale;
+} 
+
+
+
+ html, body {
+            height: 100%;
+        }
+
+        .box {
+            background: 
+            background-size: cover;
+            position: relative;
+            width: 100%;
+            height: 200%;
+        }
+
+        .login-box {
+            width: 100%;
+            max-width: 500px;
+            height: 1000px;
+            position: absolute;
+            top: 50%;
+
+            margin-top: -700px;
+            /*设置负值，为要定位子盒子的一半高度*/
+
+        }
+
+        @media screen and (min-width: 500px) {
+            .login-box {
+                left: 50%;
+                /*设置负值，为要定位子盒子的一半宽度*/
+                margin-left: -250px;
+            }
+        }
+
+        .form {
+            width: 100%;
+            max-width: 500px;
+            height: 135px;
+            margin: 2px auto 0px auto;
+        }
+
+        .login-content {
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+            height: 700px;
+            width: 100%;
+            max-width: 500px;
+            background-color: rgba(226, 226, 226, .6);
+            float: left;
+			
+        }
+
+        .input-group {
+            margin: 50px 50px 50px 140px !important;
+        }
+		.index{
+			margin-left:151px;
+			margin-top:;
+		}
+
+        .form-control,
+        .input-group {
+            height: 40px;
+			background: url(image/email.ico);
+        }
+		input[type=text]{
+			background-color: white;
+			  background-image: url(../img/email.ico);
+			  background-position: 10px 10px; 
+			  background-repeat: no-repeat;
+			  padding-left: 40px;
+		}
+		
+
+        .form-actions {
+            margin-top: 40px;
+        }
+
+        .form-group {
+            margin-bottom: 40px !important;
+        }
+		input[type=password]{
+			background-color: white;
+			  background-image: url(../img/lock.gif);
+			  background-position: 10px 10px; 
+			  background-repeat: no-repeat;
+			  padding-left: 40px;
+		}
+
+		.radio-group{
+			margin-top:5px;
+			margin-left:150px;
+		}
+        .login-title {
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            padding: 20px 10px;
+            background-color: rgba(0, 0, 0, .6);
+        }
+
+        .login-title h1 {
+            margin-top: 10px !important;
+        }
+
+        .login-title small {
+            color: #fff;
+        }
+
+        .link p {
+            line-height: 20px;
+            margin-top: 30px;
+        }
+
+        .btn-sm {
+            padding: 10px 24px !important;
+            font-size: 16px !important;
+        }
+		.
+
+        .flag {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            color: #FFFFF;
+            font-weight: bold;
+            font: 14px/normal "microsoft yahei", "Times New Roman", "宋体", Times, serif;
+        }
+        #login{
+        	margin-left:190px;
+        }
+		#sign{
+			margin-left:181.7px;
+		}
+		.index2{
+			margin-left:170px;
+		}
